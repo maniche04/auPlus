@@ -1,0 +1,111 @@
+html, body {height: 100%;}
+
+#container {
+    margin-top:-5px;
+    min-height:80%
+}
+
+body {
+    background-color:#7AC5CD;
+    font-family: 'Anaheim';
+}
+
+#header {
+    color: black;
+    height: auto;
+    margin-top: -20px;
+    text-align: center;
+    clear: both;
+    width: 100%;
+    background-color:#8EE5EE;
+
+}
+
+#error {
+    color: brown;
+    border-color: brown;
+}
+
+#error hr {
+    color: brown;
+    border-color: brown;
+}
+
+#infobar {
+    margin-top:-5px;
+    height: 81%;
+    float:right;
+    width:22%;
+    padding: 5px;
+    padding-left: 20px;
+    border-left-style:solid;
+    border-left-width: 2px;
+    border-left-color: #8EE5EE;
+}
+
+#infobar table {
+    width: 100%;
+}
+#header	a {
+    text-decoration:none;
+    color:inherit;
+}
+
+#submit {
+    border: 2px;
+    font-family: 'Anaheim';
+}
+
+input[type="text"]
+{
+    font-family: 'Anaheim';
+    width:120px;
+}
+input[type="password"]
+{
+    font-family: 'Anaheim';
+    width:120px;
+}
+
+
+#header h1 {
+    font-family: 'Rancho';
+    font-size: +2 em;
+}
+
+#header p {
+    font-family:'Anaheim';
+    margin-top: -23px;
+}
+
+#footer {
+    height: auto;
+    width:100%;
+    margin-bottom: -6px;
+    text-align: center;
+    clear: both;
+    background-color:#8EE5EE;
+    font-family: 'Anaheim';
+}
+
+#footer a {
+    color: #8A8A8A;
+
+}
+
+#submit {
+    font-family:'Anaheim';
+    background-color:#8EE5EE;
+    border: 2px;
+    font-size: 1em;
+}
+
+#info-title {
+    font-weight: bold;
+    text-align: center;
+    font-family:'Anaheim';
+    background-color:#8EE5EE;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: lightskyblue;
+}
