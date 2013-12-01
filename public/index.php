@@ -10,4 +10,6 @@ if ($session->check_login() == true){
 } else {
     redirect_to("login.php");
 }
+
+echo "Hello world!";
 ?>
